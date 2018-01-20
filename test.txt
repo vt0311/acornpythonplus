@@ -1,0 +1,1 @@
+파일에 정보를 저장한다.Hello Python
