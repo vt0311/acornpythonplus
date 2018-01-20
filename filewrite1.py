@@ -1,8 +1,8 @@
 #f = open('c:\\temp\\test.txt', 'w')
 
-#f = open('test.txt', 'w', encoding="utf-8")
+f = open('test.txt', 'w', encoding="utf-8")
 
-f = open('c:/temp/test.txt', 'w', encoding="utf-8")
+#f = open('c:/temp/test.txt', 'w', encoding="utf-8")
 
 f.write('파일에 정보를 저장한다.')
 
