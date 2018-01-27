@@ -26,3 +26,8 @@
 그래서 음수값을 없애기 위해 분산을 구한다   
 
 - std : numpy의 표준편차
+
+
+https://openpyxl.readthedocs.io/en/stable/
+
+
