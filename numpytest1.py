@@ -35,3 +35,16 @@ print('합계:', np.sum(list2))
 print('평균:', np.mean(list2))
 print('중위수:', np.median(list2))
 
+print('=========================================')
+
+a = np.array([1,2,3])
+print(type(a))
+print(a.ndim)
+print(a.shape)
+
+a = np.array([1,2,3], [4,5,6])
+print(a.shape)
+
+
+print('=========================================')
+
