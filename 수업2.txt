@@ -31,3 +31,6 @@
 https://openpyxl.readthedocs.io/en/stable/
 
 
+http://pythonexcels.com/python-excel-mini-cookbook/
+
+
