@@ -97,11 +97,23 @@ print()
 # 관측치 40, 200, 600가 이럴 때
 # 저 비율과 맞는지 여부.
 
-observe = [40, 200, 600]
-expected = [40*0.1, 200*0.2, 600 * 0.7]
+#observe = [40, 200, 600]
+#observe = [4, 40, 420]
+#ratio = [0.1, 0.2, 0.7]
+#expected = [40*0.1, 200*0.2, 600 * 0.7]
+
+observe = np.array([4, 40, 420])
+ratio = np.array([0.1, 0.2, 0.7])
+expected = observe * ratio
+
+
+print(' 멘델의 유전법칙 expected:')
+print(expected)
+print()
 
 chis = stats.chisquare(observe, expected)
 print(' 멘델의 유전법칙 chis:')
 print(chis)
 print()
 # 결과가 매우 작았으므로 요구조건에 충족하지 않는다.
+# 0.05 보다 작으므로
