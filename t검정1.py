@@ -106,5 +106,11 @@ print(paired_sample)
 # 0.05 보다 작음. -> 차이가 있다. -> 유의미함. 
 
 
+# 시험
+test7 = [58, 39, 49, 99, 32, 88, 62, 30, 55, 65, 44, 55, 57, 53, 88, 42, 39]
+Ttest7 = stats.ttest_1samp(test7, 55)
+print(' Ttest7:')
+print(Ttest7)
+print()
 
 

@@ -21,4 +21,28 @@ plt.xlabel('몸무게')
 plt.ylabel('키')
 
 
-plt.show()
+#plt.show()
+
+#==================================================
+
+# 시험
+testa = [95, 67, 66, 59, 40]
+
+testb = [88, 87, 67, 90, 70]
+
+import numpy as np
+
+print('a평균:', np.mean(np.array(testa)) )
+print('a분산:', np.var(np.array(testa)) )
+print('a표준편차:', np.std(np.array(testa)) )
+
+print('b평균:', np.mean(np.array(testb)) )
+print('b분산:', np.var(np.array(testb)) )
+print('b표준편차:', np.std(np.array(testb)) )
+
+
+c = [2.3, 1.7, 1.4, 0.7, 1.9]
+
+print('c분산:', np.var(np.array(c)) )
+print('c표준편차:', np.std(np.array(c)) )
+

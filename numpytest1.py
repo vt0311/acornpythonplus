@@ -34,6 +34,14 @@ list2 = np.array(list1) # numpy 타입으로 수정한다.
 print('합계:', np.sum(list2))
 print('평균:', np.mean(list2))
 print('중위수:', np.median(list2))
+print('최대:', np.max(list2))
+print('최소:', np.min(list2))
+
+print('=========================================')
+list3 = [4,3,6,7,5,3,1,9]
+list3 = np.array(list3)
+print(list3)
+print('중위수3:', np.median(list3))
 
 print('=========================================')
 
@@ -42,7 +50,7 @@ print(type(a))
 print(a.ndim)
 print(a.shape)
 
-a = np.array([1,2,3], [4,5,6])
+#a = np.array([1,2,3], [4,5,6]) # 오타 있는 듯
 print(a.shape)
 
 
